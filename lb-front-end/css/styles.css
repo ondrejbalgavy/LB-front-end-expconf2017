@@ -1,0 +1,220 @@
+
+/*reseting browser defaults*/
+html, body, h1, h2,
+h3, p, ol, ul, li, a, button, img {
+padding: 0;
+border: 0;
+margin: 0;
+}
+
+
+
+.container {
+  width: 1400px;
+  margin: auto;
+
+
+}
+
+
+.container--promo-info {
+    width: 40%;
+    float: left;
+    /*for testing purposes only*/
+  /*  background-color: red;*/
+}
+
+.container--big-image {
+  width: 60%;
+  float: right;
+
+
+
+}
+
+.container--big-image img {
+  position: relative;
+
+}
+
+.big-image {
+  position: relative;
+  top: -20px;
+  right: 19px;
+}
+
+.arrow {
+  position: relative;
+  top: 280px;
+  left: 24px;
+
+
+}
+
+.arrow2 {
+  position: relative;
+  transform: rotate(97deg);
+  top: 828px;
+  left: 431px;
+
+
+}
+
+.play-arrow {
+  padding: 20px;
+
+}
+
+
+.navbar {
+  margin-left: 60px;
+  margin-top: 30px;
+  position: fixed;
+  z-index: 200;
+
+
+}
+
+.navbar-brand {
+  display: inline;
+}
+
+.navbar-list {
+    display: inline;
+
+}
+
+.navbar--item {
+  display: inline;
+}
+
+.navbar--a-tag {
+  height: 12px;
+  width: 612px;
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar--a-tag:hover {
+  background: linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+.container--heading {
+
+  height: 125px;
+  width: 372px;
+  margin-left: 173px;
+  margin-top: 223px;
+
+}
+
+.heading__gradient {
+  position: relative;
+  top: -8px;
+  left: -2px;
+  font-family: Montserrat;
+  background: linear-gradient(231.41deg, #75E9FF 0%, #76FFA9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0;
+  font-size: 62px;
+  line-height: 73px;
+  font-weight: 700;
+}
+
+.container--subheading {
+  margin-left: 172px;
+  margin-top: 20px;
+  height: 62px;
+  width: 408px;
+
+}
+
+.text--subheading {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.container--date-and-place {
+  margin-left: 174px;
+  margin-top: 40px;
+  height: 82px;
+  width: 253px;
+  line-height: 41px;
+}
+.text--date {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.text--place {
+  color: #5B6476;
+  font-family: Montserrat;
+  font-size: 19px;	font-weight: 400;
+  line-height: 41px;
+}
+
+.buy-ticket {
+  margin-top: 40px;
+  margin-left: 175px;
+  font-family: Montserrat;
+  height: 60px;
+  width: 233px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #5B6476;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+}
+
+
+.button-oval {
+  position: relative;
+  left: 187px;
+  top: -379px;
+  height: 60px;
+  width: 60px;
+  background-color: #FFFFFF;
+
+
+  border-radius: 50%;
+  box-shadow: 0 2px 20px 0 rgba(55,59,68,0.23);
+}
+
+.ux-conference-2016 {
+  position: relative;
+  top: -417px;
+  left: 260px;
+  height: 35px;
+  width: 408px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+
+}
